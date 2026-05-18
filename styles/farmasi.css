@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+
+}
+header{
+    margin:10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+}
+.secciones-header{
+    display: flex;    
+}
+.imagen-portada img{
+    max-width: 100%;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.nuevos-productos{
+    width: fit-content;
+    background-color: white;
+    margin:0;
+    justify-self: center;
+    position:relative;
+    top:-40px;
+}
+.nuevos-productos h2{
+    margin:0;
+    padding:30px;
+}
